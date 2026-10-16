@@ -19,7 +19,7 @@ public class Main {
         var auth = new AutenticacaoService(repo);
         var contas = new ContaService(repo, auth);
 
-        System.out.println("=== BANCO DIGITAL ===");
+        System.out.println("=== BANCO DIGITAL TESTE ===");
         while (true) {
             System.out.print("\n1) Cadastrar  2) Entrar  0) Sair\n> ");
             switch (in.nextLine().trim()) {
